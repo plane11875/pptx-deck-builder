@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" lang="zh-CN" data-pptx-page-role="content">
+  <defs>
+    <linearGradient id="deckBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101B31"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="accentV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+  <g id="page-frame" data-pptx-role="decoration" data-pptx-bounds="0 0 1280 720">
+    <rect x="0" y="0" width="1280" height="720" fill="url(#deckBg)"/>
+    <rect x="0" y="0" width="1280" height="4" fill="url(#accent)"/>
+  </g>
+  <g id="page-chrome" data-pptx-role="chrome" data-pptx-bounds="80 76 1120 613">
+    <rect x="80" y="76" width="44" height="4" fill="url(#accent)" rx="2"/>
+    <text x="80" y="106" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#38BDF8" letter-spacing="3">PIPELINE</text>
+    <text x="80" y="158" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="40" fill="#F8FAFC" font-weight="700">六步流水线</text>
+    <line x1="80" y1="188" x2="1200" y2="188" stroke="#22304A" stroke-width="1"/>
+    <line x1="80" y1="660" x2="1200" y2="660" stroke="#1E2B44" stroke-width="1"/>
+    <text x="80" y="684" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="13" fill="#7C8CA6">PPT Master v6.7.0 × python-pptx · 在 GitHub Codespace 中自动生成</text>
+    <text x="1200" y="684" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="13" fill="#7C8CA6" text-anchor="end">05 / 08</text>
+  </g>
+  <g id="s5-steps" data-pptx-bounds="80 236 1120 364">
+    <rect x="80" y="236" width="350" height="168" fill="#121C2F" stroke="#22304A" stroke-width="1" rx="18"/>
+    <text x="108" y="294" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="34" fill="#38BDF8" font-weight="700">01</text>
+    <text x="176" y="292" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="24" fill="#F8FAFC" font-weight="700">init</text>
+    <line x1="108" y1="322" x2="402" y2="322" stroke="#1E2B44" stroke-width="1"/>
+    <text x="108" y="358" font-family="Consolas, Menlo, monospace" font-size="15" fill="#7C8CA6">project_manager.py init</text>
+    <rect x="465" y="236" width="350" height="168" fill="#121C2F" stroke="#22304A" stroke-width="1" rx="18"/>
+    <text x="493" y="294" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="34" fill="#38BDF8" font-weight="700">02</text>
+    <text x="561" y="292" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="24" fill="#F8FAFC" font-weight="700">写稿</text>
+    <line x1="493" y1="322" x2="787" y2="322" stroke="#1E2B44" stroke-width="1"/>
+    <text x="493" y="358" font-family="Consolas, Menlo, monospace" font-size="15" fill="#7C8CA6">builder/make_slides.py → slides/</text>
+    <rect x="850" y="236" width="350" height="168" fill="#121C2F" stroke="#22304A" stroke-width="1" rx="18"/>
+    <text x="878" y="294" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="34" fill="#38BDF8" font-weight="700">03</text>
+    <text x="946" y="292" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="24" fill="#F8FAFC" font-weight="700">质检</text>
+    <line x1="878" y1="322" x2="1172" y2="322" stroke="#1E2B44" stroke-width="1"/>
+    <text x="878" y="358" font-family="Consolas, Menlo, monospace" font-size="15" fill="#7C8CA6">svg_quality_checker.py</text>
+    <rect x="80" y="432" width="350" height="168" fill="#121C2F" stroke="#22304A" stroke-width="1" rx="18"/>
+    <text x="108" y="490" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="34" fill="#38BDF8" font-weight="700">04</text>
+    <text x="176" y="488" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="24" fill="#F8FAFC" font-weight="700">编译</text>
+    <line x1="108" y1="518" x2="402" y2="518" stroke="#1E2B44" stroke-width="1"/>
+    <text x="108" y="554" font-family="Consolas, Menlo, monospace" font-size="15" fill="#7C8CA6">svg_to_pptx.py</text>
+    <rect x="465" y="432" width="350" height="168" fill="#121C2F" stroke="#22304A" stroke-width="1" rx="18"/>
+    <text x="493" y="490" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="34" fill="#38BDF8" font-weight="700">05</text>
+    <text x="561" y="488" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="24" fill="#F8FAFC" font-weight="700">校验</text>
+    <line x1="493" y1="518" x2="787" y2="518" stroke="#1E2B44" stroke-width="1"/>
+    <text x="493" y="554" font-family="Consolas, Menlo, monospace" font-size="15" fill="#7C8CA6">python-pptx 读回,核对页数与文字</text>
+    <rect x="850" y="432" width="350" height="168" fill="#121C2F" stroke="#22304A" stroke-width="1" rx="18"/>
+    <text x="878" y="490" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="34" fill="#38BDF8" font-weight="700">06</text>
+    <text x="946" y="488" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="24" fill="#F8FAFC" font-weight="700">交付</text>
+    <line x1="878" y1="518" x2="1172" y2="518" stroke="#1E2B44" stroke-width="1"/>
+    <text x="878" y="554" font-family="Consolas, Menlo, monospace" font-size="15" fill="#7C8CA6">output/ 与 output/preview/</text>
+  </g>
+</svg>

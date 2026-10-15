@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" lang="zh-CN" data-pptx-page-role="content">
+  <defs>
+    <linearGradient id="deckBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101B31"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="accentV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+  <g id="page-frame" data-pptx-role="decoration" data-pptx-bounds="0 0 1280 720">
+    <rect x="0" y="0" width="1280" height="720" fill="url(#deckBg)"/>
+    <rect x="0" y="0" width="1280" height="4" fill="url(#accent)"/>
+  </g>
+  <g id="page-chrome" data-pptx-role="chrome" data-pptx-bounds="80 76 1120 613">
+    <rect x="80" y="76" width="44" height="4" fill="url(#accent)" rx="2"/>
+    <text x="80" y="106" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#38BDF8" letter-spacing="3">OVERVIEW</text>
+    <text x="80" y="158" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="40" fill="#F8FAFC" font-weight="700">这份 PPT 是怎么做出来的</text>
+    <line x1="80" y1="188" x2="1200" y2="188" stroke="#22304A" stroke-width="1"/>
+    <line x1="80" y1="660" x2="1200" y2="660" stroke="#1E2B44" stroke-width="1"/>
+    <text x="80" y="684" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="13" fill="#7C8CA6">PPT Master v6.7.0 × python-pptx · 在 GitHub Codespace 中自动生成</text>
+    <text x="1200" y="684" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="13" fill="#7C8CA6" text-anchor="end">02 / 08</text>
+  </g>
+  <g id="s2-steps" data-pptx-bounds="80 236 1110 300">
+    <rect x="80" y="236" width="255" height="300" fill="#121C2F" stroke="#22304A" stroke-width="1" rx="18"/>
+    <circle cx="120" cy="288" r="22" fill="url(#accentV)"/>
+    <text x="120" y="296" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="18" fill="#0B1220" font-weight="700" text-anchor="middle">01</text>
+    <text x="112" y="352" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="22" fill="#F8FAFC" font-weight="700">初始化项目</text>
+    <text x="112" y="392" font-family="Consolas, Menlo, monospace" font-size="13" fill="#38BDF8">project_manager.py init</text>
+    <line x1="112" y1="418" x2="303" y2="418" stroke="#1E2B44" stroke-width="1"/>
+    <text x="112" y="452" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="17" fill="#7C8CA6">pptx 项目的目录结构、<tspan x="112" dy="28">画布与执行日志</tspan></text>
+    <rect x="365" y="236" width="255" height="300" fill="#121C2F" stroke="#22304A" stroke-width="1" rx="18"/>
+    <circle cx="405" cy="288" r="22" fill="url(#accentV)"/>
+    <text x="405" y="296" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="18" fill="#0B1220" font-weight="700" text-anchor="middle">02</text>
+    <text x="397" y="352" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="22" fill="#F8FAFC" font-weight="700">生成幻灯片源</text>
+    <text x="397" y="392" font-family="Consolas, Menlo, monospace" font-size="13" fill="#38BDF8">builder/make_slides.py</text>
+    <line x1="397" y1="418" x2="588" y2="418" stroke="#1E2B44" stroke-width="1"/>
+    <text x="397" y="452" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="17" fill="#7C8CA6">8 个 SVG 页面,<tspan x="397" dy="28">就是这份稿子的源文件</tspan></text>
+    <rect x="650" y="236" width="255" height="300" fill="#121C2F" stroke="#22304A" stroke-width="1" rx="18"/>
+    <circle cx="690" cy="288" r="22" fill="url(#accentV)"/>
+    <text x="690" y="296" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="18" fill="#0B1220" font-weight="700" text-anchor="middle">03</text>
+    <text x="682" y="352" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="22" fill="#F8FAFC" font-weight="700">质量门禁</text>
+    <text x="682" y="392" font-family="Consolas, Menlo, monospace" font-size="13" fill="#38BDF8">svg_quality_checker.py</text>
+    <line x1="682" y1="418" x2="873" y2="418" stroke="#1E2B44" stroke-width="1"/>
+    <text x="682" y="452" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="17" fill="#7C8CA6">校验 SVG 契约,<tspan x="682" dy="28">不合规就不让编译</tspan></text>
+    <rect x="935" y="236" width="255" height="300" fill="#121C2F" stroke="#22304A" stroke-width="1" rx="18"/>
+    <circle cx="975" cy="288" r="22" fill="url(#accentV)"/>
+    <text x="975" y="296" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="18" fill="#0B1220" font-weight="700" text-anchor="middle">04</text>
+    <text x="967" y="352" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="22" fill="#F8FAFC" font-weight="700">编译成 PPTX</text>
+    <text x="967" y="392" font-family="Consolas, Menlo, monospace" font-size="13" fill="#38BDF8">svg_to_pptx.py</text>
+    <line x1="967" y1="418" x2="1158" y2="418" stroke="#1E2B44" stroke-width="1"/>
+    <text x="967" y="452" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="17" fill="#7C8CA6">SVG → DrawingML,<tspan x="967" dy="28">输出原生可编辑对象</tspan></text>
+  </g>
+  <g id="s2-note" data-pptx-bounds="80 566 1120 68">
+    <rect x="80" y="566" width="1120" height="68" fill="#0F1A2E" stroke="#1E3A52" stroke-width="1" rx="18"/>
+    <text x="108" y="608" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="18" fill="#CBD5E1">整条链路都在 Codespace 里跑完:不需要模型 API Key,也不需要图片生成接口。</text>
+  </g>
+</svg>

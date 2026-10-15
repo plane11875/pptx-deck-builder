@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" lang="zh-CN" data-pptx-page-role="content">
+  <defs>
+    <linearGradient id="deckBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101B31"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="accentV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+  <g id="page-frame" data-pptx-role="decoration" data-pptx-bounds="0 0 1280 720">
+    <rect x="0" y="0" width="1280" height="720" fill="url(#deckBg)"/>
+    <rect x="0" y="0" width="1280" height="4" fill="url(#accent)"/>
+  </g>
+  <g id="page-chrome" data-pptx-role="chrome" data-pptx-bounds="80 76 1120 613">
+    <rect x="80" y="76" width="44" height="4" fill="url(#accent)" rx="2"/>
+    <text x="80" y="106" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#38BDF8" letter-spacing="3">WHY PPT MASTER</text>
+    <text x="80" y="158" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="40" fill="#F8FAFC" font-weight="700">为什么选 PPT Master</text>
+    <line x1="80" y1="188" x2="1200" y2="188" stroke="#22304A" stroke-width="1"/>
+    <line x1="80" y1="660" x2="1200" y2="660" stroke="#1E2B44" stroke-width="1"/>
+    <text x="80" y="684" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="13" fill="#7C8CA6">PPT Master v6.7.0 × python-pptx · 在 GitHub Codespace 中自动生成</text>
+    <text x="1200" y="684" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="13" fill="#7C8CA6" text-anchor="end">03 / 08</text>
+  </g>
+  <g id="s3-cards" data-pptx-bounds="80 246 1120 330">
+    <rect x="80" y="246" width="350" height="330" fill="#121C2F" stroke="#22304A" stroke-width="1" rx="18"/>
+    <rect x="112" y="286" width="56" height="6" fill="url(#accent)" rx="3"/>
+    <text x="112" y="348" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="27" fill="#F8FAFC" font-weight="700">真·原生</text>
+    <text x="112" y="404" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="18" fill="#7C8CA6">输出的是 DrawingML 形状<tspan x="112" dy="32">与文本框,不是导出的图片,</tspan><tspan x="112" dy="32">双击就能接着改。</tspan></text>
+    <rect x="465" y="246" width="350" height="330" fill="#121C2F" stroke="#22304A" stroke-width="1" rx="18"/>
+    <rect x="497" y="286" width="56" height="6" fill="url(#accent)" rx="3"/>
+    <text x="497" y="348" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="27" fill="#F8FAFC" font-weight="700">可复现</text>
+    <text x="497" y="404" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="18" fill="#7C8CA6">同一份 SVG 源 → 同一个<tspan x="497" dy="32">PPTX。版式可以进 Git,</tspan><tspan x="497" dy="32">可以评审、可以回滚。</tspan></text>
+    <rect x="850" y="246" width="350" height="330" fill="#121C2F" stroke="#22304A" stroke-width="1" rx="18"/>
+    <rect x="882" y="286" width="56" height="6" fill="url(#accent)" rx="3"/>
+    <text x="882" y="348" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="27" fill="#F8FAFC" font-weight="700">零密钥</text>
+    <text x="882" y="404" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="18" fill="#7C8CA6">纯本地 Python 流水线,<tspan x="882" dy="32">不依赖任何模型或图片 API,</tspan><tspan x="882" dy="32">离线也能出稿。</tspan></text>
+  </g>
+  <g id="s3-footnote" data-pptx-bounds="80 596 814 22">
+    <text x="80" y="612" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#7C8CA6">选型依据:GitHub 上 star 数最高的 AI 演示文稿项目,且自带纯 Python 的 SVG→PPTX 编译器。</text>
+  </g>
+</svg>

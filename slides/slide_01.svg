@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" lang="zh-CN" data-pptx-page-role="cover">
+  <defs>
+    <linearGradient id="deckBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101B31"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="accentV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+  <g id="page-frame" data-pptx-role="decoration" data-pptx-bounds="0 0 1280 720">
+    <rect x="0" y="0" width="1280" height="720" fill="url(#deckBg)"/>
+    <rect x="0" y="0" width="1280" height="4" fill="url(#accent)"/>
+  </g>
+  <g id="cover-rings" data-pptx-role="decoration" data-pptx-bounds="860 360 360 360">
+    <circle cx="1040" cy="540" r="80" fill="none" stroke="#1B2942" stroke-width="1"/>
+    <circle cx="1040" cy="540" r="130" fill="none" stroke="#16223A" stroke-width="1"/>
+    <circle cx="1040" cy="540" r="180" fill="none" stroke="#131F35" stroke-width="1"/>
+  </g>
+  <g id="cover-kicker" data-pptx-bounds="80 247 592 51">
+    <text x="80" y="262" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="15" fill="#38BDF8" letter-spacing="4">PPT MASTER × PYTHON-PPTX · 自动化演示文稿流水线</text>
+    <rect x="80" y="292" width="96" height="6" fill="url(#accent)" rx="3"/>
+  </g>
+  <g id="cover-headline" data-pptx-bounds="80 314 681 151">
+    <text x="80" y="372" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="58" fill="#F8FAFC" font-weight="700">用开源工具链</text>
+    <text x="80" y="442" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="58" fill="#38BDF8" font-weight="700">生成原生 PowerPoint</text>
+  </g>
+  <g id="cover-statement" data-pptx-bounds="80 488 574 108">
+    <text x="80" y="508" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="20" fill="#7C8CA6">8 页 · 16:9 · 全部元素均为可编辑的原生形状与文本框<tspan x="80" dy="34">没有任何一张图片,也没有一个 SmartArt</tspan></text>
+    <line x1="80" y1="596" x2="560" y2="596" stroke="#22304A" stroke-width="1"/>
+  </g>
+  <g id="cover-meta" data-pptx-bounds="80 612 1120 22">
+    <text x="80" y="628" font-family="Consolas, Menlo, monospace" font-size="16" fill="#CBD5E1">github.com/plane11875/pptx-deck-builder</text>
+    <text x="1200" y="628" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#7C8CA6" text-anchor="end">2026-10-15</text>
+  </g>
+</svg>

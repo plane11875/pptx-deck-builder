@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" lang="zh-CN" data-pptx-page-role="content">
+  <defs>
+    <linearGradient id="deckBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101B31"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="accentV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+  <g id="page-frame" data-pptx-role="decoration" data-pptx-bounds="0 0 1280 720">
+    <rect x="0" y="0" width="1280" height="720" fill="url(#deckBg)"/>
+    <rect x="0" y="0" width="1280" height="4" fill="url(#accent)"/>
+  </g>
+  <g id="page-chrome" data-pptx-role="chrome" data-pptx-bounds="80 76 1120 613">
+    <rect x="80" y="76" width="44" height="4" fill="url(#accent)" rx="2"/>
+    <text x="80" y="106" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#38BDF8" letter-spacing="3">TRADE-OFF</text>
+    <text x="80" y="158" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="40" fill="#F8FAFC" font-weight="700">两条路线的差别</text>
+    <line x1="80" y1="188" x2="1200" y2="188" stroke="#22304A" stroke-width="1"/>
+    <line x1="80" y1="660" x2="1200" y2="660" stroke="#1E2B44" stroke-width="1"/>
+    <text x="80" y="684" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="13" fill="#7C8CA6">PPT Master v6.7.0 × python-pptx · 在 GitHub Codespace 中自动生成</text>
+    <text x="1200" y="684" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="13" fill="#7C8CA6" text-anchor="end">07 / 08</text>
+  </g>
+  <g id="s7-compare" data-pptx-bounds="80 236 1120 380">
+    <rect x="80" y="236" width="540" height="380" fill="#121C2F" stroke="#22304A" stroke-width="1" rx="18"/>
+    <rect x="112" y="236" width="96" height="4" fill="url(#accent)" rx="2"/>
+    <text x="112" y="288" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#7C8CA6" letter-spacing="3">TEMPLATE FILL</text>
+    <text x="112" y="336" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="27" fill="#F8FAFC" font-weight="700">模板填充</text>
+    <line x1="112" y1="364" x2="588" y2="364" stroke="#1E2B44" stroke-width="1"/>
+    <text x="112" y="404" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#38BDF8">得到什么</text>
+    <text x="112" y="440" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="17" fill="#CBD5E1">沿用自家母版与品牌规范<tspan x="112" dy="30">AI 只负责填字,风格稳定</tspan></text>
+    <text x="112" y="524" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#7C8CA6">代价是什么</text>
+    <text x="112" y="556" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="17" fill="#7C8CA6">版式被母版锁死,溢出难控<tspan x="112" dy="30">元素级改动要写 OOXML 补丁</tspan></text>
+    <rect x="660" y="236" width="540" height="380" fill="#14243D" stroke="#38BDF8" stroke-width="1" rx="18"/>
+    <rect x="692" y="236" width="96" height="4" fill="url(#accent)" rx="2"/>
+    <text x="692" y="288" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#38BDF8" letter-spacing="3">NATIVE COMPILE</text>
+    <text x="692" y="336" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="27" fill="#F8FAFC" font-weight="700">SVG 原生编译</text>
+    <line x1="692" y1="364" x2="1168" y2="364" stroke="#1E2B44" stroke-width="1"/>
+    <text x="692" y="404" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#38BDF8">得到什么</text>
+    <text x="692" y="440" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="17" fill="#CBD5E1">版式完全自定义,字号行距可控<tspan x="692" dy="30">矢量元素直接物化成原生形状</tspan></text>
+    <text x="692" y="524" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#7C8CA6">代价是什么</text>
+    <text x="692" y="556" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="17" fill="#7C8CA6">需要先写 SVG(可由脚本生成)<tspan x="692" dy="30">字体要自己保证可用(如思源黑体)</tspan></text>
+  </g>
+  <g id="s7-note" data-pptx-bounds="80 633 337 21">
+    <text x="80" y="648" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="15" fill="#7C8CA6">本页采用右栏路线:版式可控、产物可再编辑。</text>
+  </g>
+</svg>

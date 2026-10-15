@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" lang="zh-CN" data-pptx-page-role="ending">
+  <defs>
+    <linearGradient id="deckBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101B31"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="accentV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+  <g id="page-frame" data-pptx-role="decoration" data-pptx-bounds="0 0 1280 720">
+    <rect x="0" y="0" width="1280" height="720" fill="url(#deckBg)"/>
+    <rect x="0" y="0" width="1280" height="4" fill="url(#accent)"/>
+  </g>
+  <g id="page-chrome" data-pptx-role="chrome" data-pptx-bounds="80 76 1120 613">
+    <rect x="80" y="76" width="44" height="4" fill="url(#accent)" rx="2"/>
+    <text x="80" y="106" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#38BDF8" letter-spacing="3">RUN IT YOURSELF</text>
+    <text x="80" y="158" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="40" fill="#F8FAFC" font-weight="700">让版式和内容一样可以版本化</text>
+    <line x1="80" y1="188" x2="1200" y2="188" stroke="#22304A" stroke-width="1"/>
+    <line x1="80" y1="660" x2="1200" y2="660" stroke="#1E2B44" stroke-width="1"/>
+    <text x="80" y="684" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="13" fill="#7C8CA6">PPT Master v6.7.0 × python-pptx · 在 GitHub Codespace 中自动生成</text>
+    <text x="1200" y="684" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="13" fill="#7C8CA6" text-anchor="end">08 / 08</text>
+  </g>
+  <g id="s8-code" data-pptx-bounds="80 228 1120 268">
+    <rect x="80" y="228" width="1120" height="268" fill="#0A1120" stroke="#1E3A52" stroke-width="1" rx="18"/>
+    <rect x="108" y="262" width="40" height="4" fill="url(#accent)" rx="2"/>
+    <text x="108" y="296" font-family="Consolas, Menlo, monospace" font-size="14" fill="#38BDF8" letter-spacing="3">bash</text>
+    <text x="108" y="342" font-family="Consolas, Menlo, monospace" font-size="16" fill="#CBD5E1">git clone https://github.com/hugohe3/ppt-master<tspan x="108" dy="32">pip install python-pptx XlsxWriter skia-pathops uharfbuzz</tspan><tspan x="108" dy="32">python builder/make_slides.py</tspan><tspan x="108" dy="32">python scripts/svg_quality_checker.py &lt;project&gt;/svg_output --quick-generate</tspan><tspan x="108" dy="32">python scripts/svg_to_pptx.py &lt;project&gt; --quick-generate -o output/deck.pptx</tspan></text>
+  </g>
+  <g id="s8-links" data-pptx-bounds="80 526 1120 69">
+    <text x="80" y="546" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="20" fill="#F8FAFC" font-weight="700">仓库:github.com/plane11875/pptx-deck-builder</text>
+    <text x="80" y="588" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="17" fill="#7C8CA6">成品在 output/,预览图在 output/preview/,幻灯片源在 slides/。</text>
+    <circle cx="1176" cy="566" r="24" fill="url(#accentV)"/>
+    <text x="1176" y="574" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="22" fill="#0B1220" font-weight="700" text-anchor="middle">→</text>
+  </g>
+</svg>
